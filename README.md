@@ -65,7 +65,6 @@ For example:
 
   * `IncomingPhoneNumbers/create.sh` - buy a 'From' phone number
   * `Messages/create.sh` - send a SMS
-  * `Calls/create.sh` - make a call
 
 To send a text SMS, a generic request can be sent with `request.sh`:
 
