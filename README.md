@@ -55,6 +55,7 @@ where the folder name matches the name of the endpoint, and the
 script name reflects the nature of the operation:
 
 * `create.sh`
+* `get.sh`
 * `update.sh`
 * `delete.sh`
 * `list.sh`
