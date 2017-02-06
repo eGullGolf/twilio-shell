@@ -43,8 +43,8 @@ fi
   echo "-u '$twilioAccountSid:$twilioAuthToken'"
 
   shift 2
-  for twilioParameterAndValue in $*
+  for twilioParameterAndValue
   do
-    echo "--data-urlencode $twilioParameterAndValue"
+    echo "--data-urlencode \"$twilioParameterAndValue\""
   done
 } | xargs curl --silent --show-error --request "$httpMethod"

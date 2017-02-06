@@ -21,4 +21,4 @@
 #
 cd "$(dirname "$0")"
 
-../request.sh POST Messages $*
+../request.sh POST Messages "$@"

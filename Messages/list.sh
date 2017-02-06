@@ -7,4 +7,4 @@
 #
 cd "$(dirname "$0")"
 
-../request.sh GET Messages $*
+../request.sh GET Messages "$@"

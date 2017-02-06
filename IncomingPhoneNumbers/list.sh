@@ -11,4 +11,4 @@
 #
 cd "$(dirname "$0")"
 
-../request.sh GET IncomingPhoneNumbers $*
+../request.sh GET IncomingPhoneNumbers "$@"
