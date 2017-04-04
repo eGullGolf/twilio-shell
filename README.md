@@ -85,3 +85,9 @@ $ ./Messages/create.sh \
 ```
 
 Arguments for the API endpoint are provided in the same format in both cases.
+
+## License
+
+Copyright 2017 eGull SAS  
+Licensed under the [Apache License, Version 2.0]
+(http://www.apache.org/licenses/LICENSE-2.0)
