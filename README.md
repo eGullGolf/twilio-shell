@@ -19,11 +19,9 @@ for example define your live credentials in `/etc/twilio-shell/config.sh`,
 for use in production, and your test credendials in `custom.my.sh`,
 for use during development.
 
-Note that test credentials are [limited to a subset of API endpoints]
-(https://www.twilio.com/docs/api/rest/test-credentials#supported-resources)
+Note that test credentials are [limited to a subset of API endpoints](https://www.twilio.com/docs/api/rest/test-credentials#supported-resources)
 and do not have access to your account's 'From' phone number, they must
-use ['magic' phone numbers]
-(https://www.twilio.com/docs/api/rest/test-credentials#test-sms-messages-parameters-From)
+use ['magic' phone numbers](https://www.twilio.com/docs/api/rest/test-credentials#test-sms-messages-parameters-From)
 instead.
 
 The default `config.sh` uses empty values for the credentials,
@@ -89,5 +87,5 @@ Arguments for the API endpoint are provided in the same format in both cases.
 ## License
 
 Copyright 2017 eGull SAS  
-Licensed under the [Apache License, Version 2.0]
-(http://www.apache.org/licenses/LICENSE-2.0)
+Licensed under the
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
